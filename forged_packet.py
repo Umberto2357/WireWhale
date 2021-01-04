@@ -3,6 +3,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from scapy.sendrecv import sr, sr1, srloop
 import scapy
+from scapy.all import ARP
 from scapy.layers.inet import *
 import sys
 import threading
